@@ -8,7 +8,7 @@
     <header>
         <div class="logo-container">
             <div class="logo">
-                <img src="imgs/logo.jpg" alt="Логотип" class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
             </div>
             <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
         </div>
