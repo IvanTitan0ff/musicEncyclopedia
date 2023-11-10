@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Стеклянная гармоника</h1>
+				<img src="g_harmonica.jpg" alt="Стеклянная гармоника" class="instrument-image">
+				<p>Стеклянная гармоника - уникальный музыкальный инструмент, известный своим нежным и сверкающим звучанием. Этот инструмент отличается от других тем, что производит звуки путем трения пальцев по краям стеклянных чаш и сосудов разных размеров.</p>
+
+				<p>Стеклянная гармоника была изобретена в 18 веке британским музыкантом и изобретателем Бенджамином Франклином. Он создал этот инструмент, смешивая любовь к науке и музыке. Суть инструмента заключается в том, что стеклянные чаши, расположенные по убывающей величине, наполняются водой, и затем музыкант, прикасаясь к краям чаш пальцами, вызывает колебания, создавая волшебные, плавные звуки.</p>
+					
+				<p>Игрок на стеклянной гармонике должен быть весьма искусным, чтобы контролировать тон и выразительность каждой ноты. Этот инструмент имеет особое место в истории классической музыки и использовался в произведениях таких композиторов, как Вольфганг Амадей Моцарт и Камиль Сен-Санс.</p>
+					
+				<p>Хотя стеклянные гармоники не так распространены в современной музыке, они остаются удивительным произведением мастерства и красоты, воспроизводящим музыку, которая звучит как шепот стекла.</p>
+			</div>
+		</div>
+	</main>	
+</body>
+</html>

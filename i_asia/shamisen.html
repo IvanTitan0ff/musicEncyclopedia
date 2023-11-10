@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Шамисен</h1>
+				<img src="shamisen.jpg" alt="Шамисен" class="instrument-image">
+				<p>Шамисен — это традиционный японский струнный инструмент, который привлекает внимание своим особенным звучанием и уникальным дизайном. Этот многовековой инструмент является важной частью японской музыкальной культуры, обладая глубокими корнями и богатой историей.</p>
+
+				<p>Шамисен обычно используется в различных жанрах японской музыки, таких как кабуки и гэза, а также в народной музыке. Своим узнаваемым звучанием и выразительностью шамисен способен передавать широкий диапазон эмоций, от меланхолии до энергии и веселья.</p>
+					
+				<p>Инструмент имеет уникальную конструкцию, состоящую из трех струн, натянутых над длинный, тонкий корпус. Струны обычно изготавливаются из шелка или нейлона и настраиваются с помощью специальных механизмов на боковой поверхности корпуса. Для игры на шамисене обычно используются пальцы или деревянный медиатор.</p>
+					
+				<p>Шамисен не только является важным элементом традиционной музыки, но и находит применение в современных жанрах и экспериментальной музыке. Его удивительная способность передавать японскую культуру через музыку делает шамисен уникальным и уважаемым инструментом как в Японии, так и во всем мире.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

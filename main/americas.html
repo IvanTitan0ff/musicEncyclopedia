@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class = "logo-container"> 
+			<div class="logo">
+				<img src="imgs/logo.jpg" alt="Логотип" class = "logo">
+			</div>
+			<h1 style = "padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+			<a href="MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Музыкальные инструменты Америки</h1>
+				<p>Америка является родиной разнообразных музыкальных стилей и инструментов, которые вносят свой вклад в богатое музыкальное наследие этого континента. Вот некоторые известные музыкальные инструменты Америки:</p>
+				<div class="instrument-list">
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_amer/e_guitar.jpg" alt="Электрогитара" class="instrument-image">
+						</a>
+						<p align="center">Электрогитара</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_amer/saxophone.jpg" alt="Саксофон" class="instrument-image">
+						</a>
+						<p align="center">Саксофон</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_amer/trumplet.jpg" alt="Тромбон" class="instrument-image">
+						</a>
+						<p align="center">Тромбон</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_amer/drums.jpg" alt="Барабаны" class="instrument-image">
+						</a>
+						<p align="center">Барабаны</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_amer/harmonica.jpg" alt="Блюзовая губная гармоника" class="instrument-image">
+						</a>
+						<p align="center">Блюзовая губная гармошка</p>
+					</div>
+				</div>
+				<p>Каждый из этих инструментов имеет свои уникальные особенности и сильное влияние на различные музыкальные жанры Америки.</p>
+				<p>Электрогитара является одним из самых распространенных и популярных инструментов в мире. Ее электрический звук и способность производить различные эффекты помогли сформировать такие жанры, как рок, блues и джаз.</p>
+				<p>Саксофон, изобретенный в конце XIX века, стал ключевым инструментом в джазе и многих других стилях музыки. Он обладает уникальным и эмоциональным звучанием, способным выразить широкий диапазон эмоций.</p>
+				<p>Тромбон является важным инструментом в оркестровой музыке и джазе. Его объемный звук и возможность производить высокие ноты делают инструмент незаменимой частью в музыкальных ансамблях.</p>
+				<p>Барабаны играют существенную роль в ритмической основе многих музыкальных жанров Америки, включая рок, фанк и латинскую музыку. Разнообразие барабанов и перкуссии позволяют создавать мощные и пульсирующие ритмы.</p>
+				<p>Блюзовая губная гармошка, также известная как гармоника, является характерным инструментом в блюзе и других жанрах. Ее уникальное звучание создается путем дыхания и игры на отдельных дырках инструмента.</p>
+				<p>Эти музыкальные инструменты Америки отражают разнообразие культур и стилей, которые составляют музыкальное наследие этого континента. Изучение и игра на этих инструментах позволяют нам погрузиться в различные музыкальные традиции и выразить свою индивидуальность через музыку.</p>
+				<p>Выберите интересующий вас инструмент из списка выше и узнайте больше о его особенностях, истории и значении в американской музыке.</p>
+			</div>
+		</div>
+	</main>
+	
+</body>
+</html>

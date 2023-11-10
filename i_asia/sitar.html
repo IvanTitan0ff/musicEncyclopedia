@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Ситар</h1>
+				<img src="sitar.jpg" alt="Ситар" class="instrument-image">
+				<p>Ситар — это один из самых характерных и узнаваемых инструментов индийской классической музыки. Его пронзительные звуки и уникальная форма делают его не только отличным музыкальным инструментом, но и символом богатой индийской музыкальной традиции.</p>
+					
+				<p>Ситар имеет сложную конструкцию с длинным грифом и большим числом струн, из которых лишь несколько используются для игры непосредственно, в то время как остальные служат для создания богатого резонанса. Верхняя дека инструмента украшена резными узорами, что придает ему характерный внешний вид.</p>
+					
+				<p>Игра на ситаре — это искусство, требующее не только виртуозной техники, но и глубокого понимания индийской раги и тала. Музыканты используют специфические техники, такие как меззо-стиляж, слайдинг и вибрато, чтобы создать узнаваемый звук ситара.</p>
+					
+				<p>Ситар часто используется в сольных выступлениях, а также в сопровождении вокала и других инструментов в индийской музыке. Его влияние распространяется далеко за пределы Индии, внеся значительный вклад в мировую музыкальную культуру.</p>
+			</div>
+		</div>
+	</main>	
+</body>
+</html>

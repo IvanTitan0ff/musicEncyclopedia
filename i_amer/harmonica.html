@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Гармоника</h1>
+				<img src="harmonica.jpg" alt="Гармоника" class="instrument-image">
+				<p>Блюзовая губная гармошка(гармоника) - сердце и душа блюза. Этот небольшой, но могучий инструмент стал символом эмоциональной глубины и выражения, пронизывая своим звуком пространства американского блюза.</p>
+
+				<p>История блюзовой губной гармошки тесно связана с развитием афроамериканской культуры в Южных штатах США. Она стала неотъемлемой частью блюзовых исполнений, принося в музыку аутентичность и эмоциональную глубину. Гармоника стала голосом музыкантов, рассказывающими истории боли, радости и жизненных перипетий.</p>
+					
+				<p>От игры Сонни Бой Уильямсона в чикагском блюзе до мастерства Литтл Уолтера в электрическом блюзе, губная гармошка стала важным элементом инструментального состава. Её характерный звук добавляет эмоционального напряжения и гармонии к каждой композиции.</p>
+					
+				<p>Гармоника также нашла свое место в различных жанрах, включая рок, кантри и фолк, придавая им уникальный оттенок и стиль. Её простота в использовании и возможность передать глубокие чувства сделали её популярным выбором среди музыкантов всех уровней.</p>
+					
+				<p>Сегодня блюзовая губная гармошка продолжает вдохновлять новые поколения музыкантов, сохраняя свою позицию в истории американской музыки как неотъемлемый элемент аутентичного блюзового звучания.</p>
+			</div>
+		</div>
+	</main>
+	<script>
+
+	</script>	
+</body>
+</html>

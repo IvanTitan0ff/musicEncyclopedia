@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Эрху</h1>
+				<img src="erhu.jpg" alt="Эрху" class="instrument-image">
+				<p>Эрху — это струнный инструмент, обладающий древней и богатой историей, который стал неотъемлемой частью музыкальной культуры Азии. Своим уникальным звучанием и эстетикой эрху завоевал сердца слушателей и музыкантов в разных уголках мира.</p>
+
+				<p>Изначально эрху появился в Китае и имеет корни, уходящие в древние времена. С течением веков, этот струнный инструмент стал неотъемлемой частью традиционной китайской, монгольской и других азиатских культур. Его уникальное звучание часто ассоциируется с природой, историей и духовными аспектами восточных философий.</p>
+					
+				<p>Эрху — небольшое, двухструнное смычковое, с двумя длинными струнами, изготовленными из шелка или стальных нитей. Музыкант играет на эрху, используя смычок, и создает удивительные по красоте и глубине звучания.</p>
+					
+				<p>Используется в самых различных жанрах, от классической китайской музыки и народных песен до современных композиций, в которых эрху придает особый колорит и загадочность звучанию. Благодаря своей универсальности, эрху находит применение не только в традиционной музыке, но и в современных жанрах, подчеркивая свою уникальность и универсальность.</p>
+			</div>
+		</div>
+	</main>
+	<script>
+
+	</script>	
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Бумеранг</h1>
+				<img src="boomerang.jpg" alt="Бумеранг" class="instrument-image">
+				<p>Бумеранг - это традиционный австралийский инструмент, который, несмотря на свою широкую известность как оружие для охоты и развлечений, также иногда используется в музыкальных целях. Хотя его основное предназначение связано с возвращением к метателю после броска, некоторые этнические группы в Австралии также включают бумеранг в свои музыкальные традиции.</p>
+
+				<p>Музыкальные бумеранги часто имеют своеобразную форму и изготавливаются из дерева. Звучание создается путем метания бумеранга, который приобретает особенные ритмические и звуковые характеристики при вращении в воздухе. Этот процесс может быть интегрирован в музыкальные выступления и ритуалы.</p>
+					
+				<p>Хотя бумеранг не является традиционным музыкальным инструментом в привычном смысле, его звук может использоваться как элемент в австралийских музыкальных композициях или в традиционных ритуалах. В современной культуре бумеранг также может использоваться в экспериментальных и музыкальных проектах.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

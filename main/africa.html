@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class = "logo-container"> 
+			<div class="logo">
+				<img src="imgs/logo.jpg" alt="Логотип" class = "logo">
+			</div>
+			<h1 style = "padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+			<a href="MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Музыкальные инструменты Африки</h1>
+				<p>Африка славится своим богатым и разнообразным музыкальным наследием. Множество племен и культур Африки используют уникальные музыкальные инструменты, которые играют ключевую роль в передаче их истории, традиций и эмоций.</p>
+				<p>Вот некоторые известные музыкальные инструменты Африки:</p>
+				<div class="instrument-list">
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_afr/jembe.jpg" alt="Джембе" class="instrument-image">
+						</a>
+						<p align="center">Джембе</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_afr/kora.jpg" alt="Кора" class="instrument-image">
+						</a>
+						<p align="center">Кора</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_afr/balafon.jpg" alt="Балафон" class="instrument-image">
+						</a>
+						<p align="center">Балафон</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_afr/calimba.jpg" alt="Калимба" class="instrument-image">
+						</a>
+						<p align="center">Калимба</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_afr/duduk.jpg" alt="Дудук" class="instrument-image">
+						</a>
+						<p align="center">Дудук</p>
+					</div>
+				</div>
+				<p>Каждый из этих инструментов имеет свою уникальную историю и звучание, отражающие богатство культуры и традиций Африки.</p>
+				<p>Джембе, например, является ударным инструментом, состоящим из барабанной чаши, покрытой кожей животного. Он широко используется в ритуальных и танцевальных выступлениях, передавая энергию и ритмичность африканской музыки.</p>
+				<p>Кора - это струнный инструмент, напоминающий гитару или арфу. Он известен своим мелодичным звучанием и используется для сопровождения песен, рассказов и баллад.</p>
+				<p>Балафон - это мелодический перкуссионный инструмент, состоящий из деревянных пластин, расположенных на резонаторе. Он создает яркие и пронзительные звуки и широко используется в традиционной музыке Африки.</p>
+				<p>Калимба, также известная как пальчиковый пианино, представляет собой небольшой инструмент с металлическими пластинками, которые производят звуки при нажатии на них пальцами. Его мягкое и мелодичное звучание создает атмосферу спокойствия и покоя.</p>
+				<p>Дудук - это деревянный духовой инструмент, широко используемый в традиционной музыке африканских племен. Он создает глубокие и экзотические звуки, добавляя особую атмосферу и настроение к музыке.</p>
+				<p>Изучение и игра на музыкальных инструментах Африки позволяют нам открыть для себя богатство и разнообразие этого континента. Они позволяют нам углубиться в культуру, традиции и историю Африки через музыку и ритм.</p>
+				<p>Выберите интересующий вас инструмент из списка выше и узнайте больше о его особенностях, истории и использовании.</p>
+			</div>
+		</div>
+	</main>
+	
+</body>
+</html>

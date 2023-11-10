@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Кастаньеты</h1>
+				<img src="clappers.jpg" alt="Кастаньеты" class="instrument-image">
+				<p>Кастаньеты - это ударный музыкальный инструмент, который представляет собой пару небольших деревянных или пластиковых дисков, соединенных между собой петлей. Они используются для создания ритмических звуков путем стукающихся поверхностей. </p>
+
+				<p>Музыканты, играющие на кастаньетах, обычно держат их в руках и стучат одним диском о другой. Это создает характерный звук, который может служить как ритмическое дополнение к музыке. В зависимости от традиций и стилей, кастаньеты могут использоваться в сольных выступлениях, а также в составе оркестра или ансамбля.</p>
+					
+				<p>Их игра требует некоторой ловкости и координации, поскольку музыкант должен уметь контролировать звук, изменяя силу ударов и скорость движения дисков. Кастаньеты добавляют веселый и яркий элемент к музыкальным композициям, делая их популярными в различных культурных контекстах.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

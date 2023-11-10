@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Тромбон</h1>
+				<img src="trumplet.jpg" alt="Тромбон" class="instrument-image">
+				<p>Тромбон — это медный духовой инструмент, прекрасно вписавшийся в мир американской музыки. С его мощным и эмоциональным звучанием, тромбон стал неотъемлемой частью оркестровых составов, духовых ансамблей и джазовых оркестров.</p>
+
+				<p>История тромбона берет свое начало ещё в XVI веке, и он стал одним из первых инструментов семейства медных духовых, которые сыграли важную роль в развитии европейской музыки. Однако, именно в Америке тромбон нашел свое особенное применение и воплотил в себе дух разнообразных музыкальных стилей.</p>
+					
+				<p>В джазе тромбон стал ключевым инструментом, добавляя глубину и выразительность звучанию. От классических сочинений до импровизаций джазовых мастеров, тромбон всегда находит свое место, придающее музыке особую окраску.</p>
+					
+				<p>Своеобразие тромбона заключается в его слайде (выдвижной трубе), который позволяет музыканту изменять высоту звука. Это дает тромбонисту уникальные возможности в исполнении мелодий и создании различных эффектов.</p>
+					
+				<p>Тромбон с успехом используется в различных музыкальных жанрах — от классики и джаза до рока и поп-музыки. Его звучание остается неповторимым и способным донести до слушателя широкий диапазон эмоций и настроений.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

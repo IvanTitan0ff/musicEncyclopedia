@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class = "logo-container"> 
+			<div class="logo">
+				<img src="imgs/logo.jpg" alt="Логотип" class = "logo">
+			</div>
+			<h1 style = "padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+			<a href="MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Музыкальные инструменты Азии</h1>
+				<p>Азия является местом рождения множества уникальных музыкальных инструментов, которые отражают богатство культурного наследия этого региона. Вот некоторые из них:</p>
+				<div class="instrument-list">
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_asia/shamisen.jpg" alt="Шамисен" class="instrument-image">
+						</a>
+						<p align="center">Шамисен</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_asia/erhu.jpg" alt="Эрху" class="instrument-image">
+						</a>
+						<p align="center">Эрху</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_asia/sitar.jpg" alt="Ситар" class="instrument-image">
+						</a>
+						<p align="center">Ситар</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_asia/koto.jpg" alt="Кото" class="instrument-image">
+						</a>
+						<p align="center">Кото</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_asia/yanqin.jpg" alt="Янцин" class="instrument-image">
+						</a>
+						<p align="center">Янцин</p>
+					</div>
+				</div>
+				<p>Каждый из этих инструментов имеет свою уникальную историю и звучание, которые отражают многовековые музыкальные традиции различных стран Азии.</p>
+				<p>Шамисен - это традиционный трехструнный инструмент из Японии. Он используется для игры в различных жанрах японской музыки, от классической до народной.</p>
+				<p>Эрху - это двухструнный смычковый инструмент из Китая. Он имеет красивое и мелодичное звучание и широко используется в китайской музыке и опере.</p>
+				<p>Ситар - это струнный инструмент из Индии. Он имеет сложную конструкцию и уникальный звук, который присутствует в классической и народной музыке Индии.</p>
+				<p>Кото - это плоский, тринадцатиструнный инструмент из Японии. Он играет важную роль в традиционной японской музыке и создает изысканные и красивые звуки.</p>
+				<p>Янцин - это плоский, 144-струнный инструмент из Китая. Он обладает широким диапазоном звуков и используется в китайской классической музыке и народной музыке.</p>
+				<p>Изучение и игра на музыкальных инструментах Азии позволяют нам погрузиться в богатое музыкальное наследие этого региона и ощутить уникальные звуки и мелодии. Выберите интересующий вас инструмент из списка выше и узнайте больше о его особенностях, игровой технике и значении в культуре Азии.</p>
+			</div>
+		</div>
+	</main>
+	
+</body>
+</html>

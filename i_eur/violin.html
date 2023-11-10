@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Скрипка</h1>
+				<img src="violin.jpg" alt="Скрипка" class="instrument-image">
+				<p>Скрипка - это струнный музыкальный инструмент, который является частью семейства скрипок, включающего также альту, виолончель и контрабас. Скрипка является одним из наиболее известных и широко используемых инструментов в музыкальной истории.</p>
+
+				<p>История скрипки насчитывает несколько веков, и она играла ключевую роль в различных музыкальных жанрах, включая классику, джаз, фольклор и современные стили. Скрипка известна своим высоким, кристально чистым звуком, способностью передавать широкий диапазон эмоций и является незаменимым инструментом в оркестре.</p>
+					
+				<p>Игра на скрипке осуществляется при помощи смычка, который проходит над струнами, вызывая их вибрацию и создавая красивый звук. Музыканты, известные как скрипачи, мастерски используют лады и технику смычка для производства разнообразных мелодий, гармоний и соло.</p>
+					
+				<p>Скрипка широко используется как сольный инструмент, так и в составе оркестра, камерных групп и других ансамблей. Ее уникальный звук и способность выразить глубокие эмоции делают ее одним из самых восхитительных музыкальных инструментов.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

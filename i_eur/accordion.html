@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Аккордеон</h1>
+				<img src="accordion.jpg" alt="Аккордеон" class="instrument-image">
+				<p>Аккордеон - уникальный клавишный музыкальный инструмент. Этот портативный инструмент имеет клавиши, схожие с клавишами фортепиано, и создает звук путем воздействия на воздух, который пропускается через металлические лепестки внутри инструмента.</p>
+
+				<p>Аккордеоны используются в различных музыкальных жанрах, включая фольклор, джаз, танго и популярную музыку. Их уникальное звучание делает их неповторимыми и очень распознаваемыми.</p>
+					
+				<p>Этот инструмент играет важную роль в музыкальной традиции Европы. Он был разработан в первой половине 19 века и с тех пор стал неотъемлемой частью многих музыкальных ансамблей и оркестров.</p>
+					
+				<p>Игрок на аккордеоне может одновременно управлять мелодией и аккомпанементом, что делает его универсальным инструментом для создания богатого и полного звучания. Независимо от жанра, аккордеон добавляет яркость и экспрессивность в музыкальное исполнение, делая его непременным элементом европейской музыкальной культуры.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

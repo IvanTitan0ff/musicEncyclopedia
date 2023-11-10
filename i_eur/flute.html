@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Флейта</h1>
+				<img src="flute.jpg" alt="Флейта" class="instrument-image">
+				<p>Флейта - это древний музыкальный инструмент, который принадлежит к семейству деревянных духовых инструментов. Он известен своим светлым и чистым звуком, который создается путем вдувания воздуха в узкий отверстие, расположенное на одном из концов инструмента.</p>
+
+				<p>Флейты могут иметь различные размеры и диапазоны, и они используются в разнообразных музыкальных жанрах. В классической музыке флейта является важной частью оркестра и духовых ансамблей, в то время как в фольклорной музыке она может быть использована как сольный инструмент.</p>
+					
+				<p>Этот изящный инструмент имеет длинную историю, восходящую к древним временам. Флейты были широко распространены в культурах Европы и стали символом грации и элегантности.</p>
+					
+				<p>Игрок на флейте управляет высотой звука, покрывая и открывая отверстия на инструменте. Эта техника позволяет создавать разнообразные мелодии и вносить изысканные нюансы в исполнение.</p>
+					
+				<p>В музыкальной традиции Европы флейта занимает почетное место, придавая музыке воздушную легкость и эмоциональное насыщение.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

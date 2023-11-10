@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Диджериду</h1>
+				<img src="didjeridu.jpg" alt="Диджериду" class="instrument-image">
+				<p>Диджериду - это древний австралийский духовой музыкальный инструмент, известный своим характерным, низкочастотным и гулким звуком. Этот инструмент был создан австралийскими коренными народами, такими как аборигены, и считается одним из старейших музыкальных инструментов в мире.</p>
+
+				<p>Диджериду обычно изготавливается из дерева (например, из эвкалипта) и имеет длинную трубоподобную форму. Он может достигать значительной длины, порой более двух метров. По всей длине инструмента проходит узкий канал, а игрок использует свой рот и технику дыхания для создания звука.</p>
+					
+				<p>Игра на диджериду включает в себя использование кругового дыхания, что позволяет музыканту производить звук непрерывно. Звук создается вибрациями губ и усиливается резонансом внутри трубы инструмента. Музыканты также могут изменять тон и тембр, используя различные техники дыхания.</p>
+					
+				<p>Диджериду традиционно связан с ритуалами и обрядами австралийских аборигенов, но сегодня его звуки широко используются в современной музыке, включая мировую, эмбиент и новую эпоху. Этот инструмент также популярен среди любителей музыки и музыкантов по всему миру.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

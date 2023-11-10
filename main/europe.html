@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class = "logo-container"> 
+			<div class="logo">
+				<img src="imgs/logo.jpg" alt="Логотип" class = "logo">
+			</div>
+			<h1 style = "padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Музыкальные инструменты Европы</h1>
+				<a id="europe"></a>
+				<p>Европа является местом, где родились и развивались многие известные музыкальные инструменты. Благодаря разнообразию культур и традиций, каждая страна Европы имеет свои уникальные инструменты, которые вносят свой вклад в музыкальное наследие этого региона.</p>
+				<p>Ниже приведен список некоторых известных музыкальных инструментов Европы:</p>
+				<div class="instrument-list">
+					<div class="instrument">
+						<a href="#piano" id="piano">
+							<img src="../i_eur/piano.jpg" alt="Фортепиано" class="instrument-image">
+						</a>
+						<p align="center">Фортепиано</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_eur/violin.jpg" alt="Скрипка" class="instrument-image">
+						</a>
+						<p align="center">Скрипка</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_eur/guitar.jpg" alt="Гитара" class="instrument-image">
+						</a>
+						<p align="center">Гитара</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_eur/accordion.jpg" alt="Аккордеон" class="instrument-image">
+						</a>
+						<p align="center">Аккордеон</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_eur/flute.jpg" alt="Флейта" class="instrument-image">
+						</a>
+						<p align="center">Флейта</p>
+					</div>
+					<div class="instrument">
+						<a href="#">
+							<img src="../i_eur/tube.jpg" alt="Труба" class="instrument-image">
+						</a>
+						<p align="center">Труба</p>
+					</div>
+				</div>
+				<p>Каждый из этих инструментов имеет свои особенности и историю. Фортепиано, например, было разработано в Италии в XVIII веке и стало одним из самых популярных инструментов в мире благодаря своей универсальности и экспрессивности.</p>
+				<p>Скрипка считающаяся одним из самых изысканных и сложных инструментов, является неотъемлемой частью классической музыки и культуры Европы. Гитара, с другой стороны, имеет богатую историю и применяется в широком спектре музыкальных стилей, от классической до фламенко и рок-музыки.</p>
+				<p>Скрипка, флейта и труба также играют важную роль в европейской музыке, обогащая ее звуками и создавая неповторимую атмосферу.</p>
+				<p>Изучение и игра на музыкальных инструментах Европы позволяют нам погрузиться в богатую культурную и музыкальную традицию этого региона. Они открывают перед нами возможность испытать удовольствие от игры и выразить свои эмоции через звуки и мелодии.</p>
+				<p>Выберите интересующий вас инструмент из списка выше и узнайте больше о его особенностях, истории и использовании.</p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

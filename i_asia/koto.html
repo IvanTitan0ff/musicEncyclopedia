@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.instrument-image {
+			float: right; 
+			margin: 0 0 20px 20px;
+			max-width: 200px;
+		}
+	</style>
+	<script src="../main/main.js"></script>
+    <title>Энциклопедия музыкальных инструментов</title>
+    <link rel="stylesheet" href="../main/style.css">
+</head>
+
+<body>
+    <header>	
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../imgs/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <h1 style="padding: 20px;">Энциклопедия музыкальных инструментов</h1>
+        </div>
+    </header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<a href="../main/MusicInstrumentMain.html">На главную</a>
+				<div class="search">
+					<input type="text" id="searchBox" placeholder="Поиск...">
+					<button onclick="search()">Искать</button>
+				</div>
+				<div class="guestbook">
+					<b>Гостевая книга</b>
+					<form action="../main/guestbook.php" method="POST">
+						<br> 
+						<label for="name">Имя:</label>
+						<input type="text" id="name" name="name" required>
+						<label for="message">Сообщение:</label>
+						<textarea id="message" name="message" required></textarea>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="content">
+				<h1 align="center">Кото</h1>
+				<img src="koto.jpg" alt="Кото" class="instrument-image">
+				<p>Кото — это изысканный японский струнный инструмент, который завораживает своей нежной и эмоциональной музыкой. С его изящной формой и глубокими корнями в традиционной японской культуре, кото стал не только символом нации, но и важной частью ее музыкального наследия.</p>
+
+				<p>Кото появился в Японии более тысячи лет назад и прошел долгий путь эволюции, сохраняя свою характерную форму и звучание. Изначально, этот струнный инструмент использовался в религиозных и императорских церемониях, а с течением времени стал популярным в традиционной и современной японской музыке.</p>
+					
+				<p>Кото представляет собой деревянный инструмент с длинным телом и массивной верхней декой, на которой расположено 13 струн, натянутых над длинным деревянным жиклером. Музыкант играет на кото, используя тонкое деревянное приспособление, напоминающее кисточку, что придает инструменту неповторимую мягкость и выразительность звучания.</p>
+					
+				<p>Звук кото может быть нежным и легким, а может олицетворять собой силу и глубину. Используется как сольный инструмент, так и в составе ансамблей, обогащая различные музыкальные композиции. Благодаря своей универсальности, кото становится всё более популярным за пределами Японии, завоевывая сердца музыкантов и слушателей по всему миру.</p>
+			</div>
+		</div>
+	</main>
+	<script>
+
+	</script>	
+</body>
+</html>
